@@ -9,8 +9,12 @@ public interface RestApiConfig extends Config {
 
     String testingHost();
 
-    String testingPort();
+    int testingPort();
 
     String basePath();
+
+    String testDataDir();
+
+    String dataFileName();
 
 }

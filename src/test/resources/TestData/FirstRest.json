@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "method": "GET",
+      "path": "/"
+    },
+    "checks": {
+      "body": {
+        "[0].EndPoint": "/v1/endpoint1",
+        "[1].EndPoint": "/v1/endpoint2",
+        "[2].Response": "{response3: \"3333333\"}"
+      }
+    }
+  },
+
+  {
+    "request": {
+      "method": "GET",
+      "path": "/"
+    },
+    "checks": {
+      "body": {
+        "[0].EndPoint": "/v1/endpoint1",
+        "[1].EndPoint": "/v1/endpoint2",
+        "[2].Response": "{response3: \"3333333\"}"
+      }
+    }
+  }
+]
