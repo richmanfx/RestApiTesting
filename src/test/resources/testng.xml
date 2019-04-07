@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RestApiSuite" verbose="1" >
+
+
+    <test name="RestApiTest" annotations="Group1">
+
+        <groups>
+            <define name="Group1"/>
+        </groups>
+
+        <classes>
+            <class name="ru.r5am.tests.FirstRestApi" />
+        </classes>
+
+    </test>
+
+</suite>
